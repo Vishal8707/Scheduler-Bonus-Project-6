@@ -1,0 +1,24 @@
+{
+  "name": "scheduler-bonus-project-6",
+  "version": "1.0.0",
+  "description": "Build a scheduler in JS with NodeJS framework and a script to run it for 10 events.\r The event will consist of a text (string) and a date time at which it will run.\r The scheduler must schedule the event to trigger a function at the date time mentioned in the event body.\r The trigger function (API) must accept the text as input, sleep for the duration of text length and return text backwards.\r Example\r Let say list of events is",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vishal8707/Scheduler-Bonus-Project-6.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vishal8707/Scheduler-Bonus-Project-6/issues"
+  },
+  "homepage": "https://github.com/Vishal8707/Scheduler-Bonus-Project-6#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "moment": "^2.29.4",
+    "node-cron": "^3.0.2"
+  }
+}
